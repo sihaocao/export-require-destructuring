@@ -4,11 +4,7 @@
   "description": "What am I about?",
   "main": "app.js",
   "scripts": {
-    "test": "mocha --require test/test.js",
-    "dev": "nodemon src/server.js",
-    "start": "mocha --exit",
-    "predeploy": "npm audit",
-    "deploy": "git push heroku master"
+    "start": "mocha --exit"
   },
   "keywords": [
     "node",
