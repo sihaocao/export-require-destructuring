@@ -1,0 +1,39 @@
+{
+  "name": "export-require-destructuring",
+  "version": "1.0.0",
+  "description": "What am I about?",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --require test/test.js",
+    "dev": "nodemon src/server.js",
+    "start": "mocha --exit",
+    "predeploy": "npm audit",
+    "deploy": "git push heroku master"
+  },
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ],
+  "engines": {
+    "node": "10.16.3"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/welcome-project"
+  },
+  "author": "SC",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "nodemon": "^2.0.1",
+    "supertest": "^4.0.2"
+  }
+}
